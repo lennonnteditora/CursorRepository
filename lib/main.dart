@@ -291,7 +291,8 @@ class _ChatPageState extends State<ChatPage> {
                   itemCount: _messages.length,
                   itemBuilder: (context, index) {
                     final msg = _messages[index];
-                    final isMe = msg.from.username == widget.currentUser.username;
+                    final isMe =
+                        msg.from.username == widget.currentUser.username;
                     return Align(
                       alignment:
                           isMe ? Alignment.centerRight : Alignment.centerLeft,
