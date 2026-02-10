@@ -13,6 +13,7 @@ dependencies:
 
   # Suporte a Flutter Web já vem no SDK padrão
   cupertino_icons: ^1.0.8
+  crypto: ^3.0.3
 
 dev_dependencies:
   flutter_test:
